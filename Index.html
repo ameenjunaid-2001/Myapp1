@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        button {
+            font-size: 24px;
+            padding: 20px 40px;
+            border: 2px solid white;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <button id="startBtn">Start</button>
+
+    <script>
+        document.getElementById('startBtn').addEventListener('click', function() {
+            alert('ആശംസകൾ! നമ്മുടെ ചങ്ങായി റെഡി ആയി. ഇനി നമുക്ക് സംസാരിക്കാം.');
+        });
+    </script>
+</body>
+</html>
